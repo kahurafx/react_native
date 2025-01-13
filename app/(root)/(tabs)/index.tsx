@@ -12,11 +12,6 @@ export default function Index() {
             }}
         >
             <Text className="font-rubik-bold text-2xl py-10">Welcome to Restate</Text>
-            <Link href="/sign-in">Sign In</Link>
-            <Link href="/explore">Explore</Link>
-            <Link href="/properties/1">Property Details</Link>
-            <Link href="/profile">Profile</Link>
-            <Text>Hello, Fuck You</Text>
         </View>
     );
 }
