@@ -3,8 +3,6 @@ import { Text, View } from "react-native";
 
 
 export default function Index() {
-
-    
     return (
         <View
             style={{
@@ -13,11 +11,12 @@ export default function Index() {
                 alignItems: "center",
             }}
         >
+            <Text className="font-rubik-bold text-2xl py-10">Welcome to Restate</Text>
+            <Link href="/sign-in">Sign In</Link>
             <Link href="/explore">Explore</Link>
-            <Link href="/sign-in" className="font-bold text-xl my-10">Sign In</Link>
             <Link href="/properties/1">Property Details</Link>
-            <Text>Hello, Fuck You</Text>
             <Link href="/profile">Profile</Link>
+            <Text>Hello, Fuck You</Text>
         </View>
     );
 }
